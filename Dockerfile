@@ -1,4 +1,4 @@
-FROM pihole/pihole:master-amd64
+FROM pihole/pihole
 RUN apt-get update; \
 	apt-get install python-pip --no-install-recommends -y; \
 	pip install speedtest-cli; \
